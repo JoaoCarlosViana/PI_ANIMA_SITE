@@ -1,0 +1,115 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.perguntas{
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgb(236, 238, 240);
+
+    padding: -20px;
+
+    background: url('blurry_background.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.questionario{
+   background: linear-gradient(to right, #85C1E0, #AEDFF7, #D4F1FF);
+
+    width: 80%;
+    height: 90%;
+    margin: 80px;
+    padding: 70px;
+
+    font-size: 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    border-radius: 90px 200px 90px 200px;
+
+}
+
+.alternativas1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    width: 100%;
+    height: 100%;
+
+    
+}
+
+.ab{
+    width: 400px;
+    height: 200px;
+    margin: 20px;
+    padding: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    font-size: 30px;
+    color: white;
+
+    background: linear-gradient(to right, #002C3C, #005066, #007A99);
+
+
+    border-radius: 100px 90px 100px 20px;
+
+    cursor: pointer;
+
+    transition: transform 0.6s ease;
+}
+.ab:hover{
+    background: linear-gradient(to right, #004D66, #007A99, #0099CC);
+    transform: scale(1.1);
+    transform: translate3d(20%);
+}
+.cd{
+    width: 400px;
+    height: 200px;
+    margin: 20px;
+    padding: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    font-size: 30px;
+    color: white;
+
+    background: linear-gradient(to right, #002C3C, #005066, #007A99);
+
+
+    border-radius: 100px 90px 100px 20px;
+
+    cursor: pointer;
+
+    transition: transform 0.6s ease;
+}
+.cd:hover{
+    background: linear-gradient(to right, #004D66, #007A99, #0099CC);
+    transform: scale(1.1);
+    transform: translate3d(20%);
+}
+.cd, a{
+    text-decoration: none;
+    color: white;
+}
