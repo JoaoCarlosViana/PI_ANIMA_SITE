@@ -244,6 +244,12 @@ section{
 /* RESPONSIVO */
 
 @media (max-width: 768px) {
+  .imagem {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
   .title {
     font-size: 28px;
     text-align: center;
